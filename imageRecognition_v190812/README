@@ -1,0 +1,13 @@
+
+19/08/12
+opencv4 必要
+#include <opencv2/opencv.hpp>
+
+一部 matplotlib を使うため include python
+#include "matplotlibcpp_starter.h"
+
+Mac では動く
+
+ImportError: No module named _multiarray_umath
+=> pip install numpy --upgrade
+  but, its not helpfull ...
